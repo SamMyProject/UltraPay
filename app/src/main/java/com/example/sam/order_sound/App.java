@@ -162,7 +162,7 @@ public class App {
 
     }
 
-    public int doApp(double[] data) throws Exception, IOException {
+    public synchronized int doApp(double[] data) throws Exception, IOException {
         double[] kepfre = new double[8];
         FFT fft = new FFT();
         // TODO Auto-generated method stub
