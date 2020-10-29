@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coupontest">
+
+    <TextView
+        android:id="@+id/name_coupon"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_column="22"
+        android:layout_marginStart="16dp"
+        android:layout_row="0"
+        android:layout_x="34dp"
+        android:layout_y="37dp"
+        android:text="店家優惠"
+        android:textSize="16pt" />
+    <![CDATA[
+    app:layout_constraintBottom_toTopOf="@+id/listview"
+    app:layout_constraintStart_toEndOf="@+id/ckectbutton"
+    app:layout_constraintTop_toBottomOf="@+id/ckectbutton" />
+
+
+
+    ]]>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="176dp"
+        android:layout_height="435dp"
+        android:layout_column="23"
+        android:layout_row="0"
+        android:layout_x="0dp"
+        android:layout_y="83dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+        android:id="@+id/MoneyTV"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_x="180dp"
+        android:layout_y="328dp"
+        android:text="金額:"
+        android:textSize="10pt"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/totalMY"
+        android:layout_width="212dp"
+        android:layout_height="41dp"
+        android:layout_x="177dp"
+        android:layout_y="387dp"
+        android:text="0 $"
+        android:textSize="10pt"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/getCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="196dp"
+        android:layout_y="81dp"
+        android:onClick="getCoupon"
+        android:text="獲得優惠"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/useCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="196dp"
+        android:layout_y="144dp"
+        android:onClick="useCoupon"
+        android:text="錢包"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="197dp"
+        android:layout_y="49dp"
+        android:text="note"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+
+</AbsoluteLayout>

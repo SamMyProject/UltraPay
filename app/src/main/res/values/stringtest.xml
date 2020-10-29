@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="region_list"> //定義清單資料
+        <item>Item 01</item>
+        <item>Item 02</item>
+        <item>Item 03</item>
+        <item>Item 04</item>
+    </string-array>
+
+
+</resources>
